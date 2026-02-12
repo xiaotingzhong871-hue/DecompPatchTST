@@ -8,6 +8,11 @@ from exp.exp_long_term_forecasting import Exp_Long_Term_Forecast
 
 if __name__ == '__main__':
 
+    # fix_seed = 2021  
+    # random.seed(fix_seed)  
+    # torch.manual_seed(fix_seed)  
+    # np.random.seed(fix_seed)  
+
     torch.set_num_threads(6)  # 设置 PyTorch 使用的 CPU 线程数，以优化性能
 
     # --- 2. 初始化命令行参数解析器 ---
